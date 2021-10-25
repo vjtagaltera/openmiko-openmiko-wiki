@@ -1,4 +1,4 @@
-
+## Setting up the wifi
 
 Wifi configuration is done via the sdcard.
 
