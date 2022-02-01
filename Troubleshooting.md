@@ -6,6 +6,7 @@ If you can't seem to get up and running here are some things to check:
 - Inside wpa_supplicant.conf the `psk` and `ssid` settings need to have double quotes around the string. For example `psk="password_keep_double_quotes"`
 - Make sure the file does not have a `.txt` extension. The file should show up as `wpa_supplicant.conf`. `Not wpa_supplicant.conf.txt`
 - The `config/overlay/etc` directory is *cAsE sEnsItiVe*. Make sure it is all lowercase.
+- Make sure if you are creating .conf and .json files on a Windows machine you are using the UNIX (LF) line ending not Windows (CR LF). This can be checked in Notepad++ by turning on "Show All Characters" and changed in Settings>Preferences>New Document>Format Unix (LF).
 - The MAC address does change when flashing from the one on the sticker. Check your router to see the new DHCP address.
 - There are some reports that assigning a static IP / DHCP reservation does help the WyzeCam connect to the network
 - Logs should appear on the sdcard if the system is properly booting
